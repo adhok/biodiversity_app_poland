@@ -1,0 +1,13 @@
+name: shiny_app
+title: shiny_app
+username:
+account: pradeepadhokshaja
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6285782
+bundleId: 5897879
+url: https://pradeepadhokshaja.shinyapps.io/shiny_app/
+when: 1652332556.24434
+lastSyncTime: 1652332556.24436
+asMultiple: FALSE
+asStatic: FALSE
