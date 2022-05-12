@@ -11,9 +11,12 @@ Hi here ! This is s simple shiny app to visualize Poland's biodiversity. This ap
 * `data_sources/poland.RDS` - This contains the Poland data from `occurrence.csv`.
 * `data_sources/new_data.RDS` - A joined data of `poland.RDS` & `multimedia.csv`
 * `app.R` - File that imports `ui.R`, `server.R` & `global.R` and runs the shinyApp() function.
+* `www` folder contains image and simple CSS files that are used in the app.
 
 
 ## App Layout
+
+![App Layout](https://raw.githubusercontent.com/adhok/biodiversity_app_poland/main/Screenshot%202022-05-12%20at%2011.06.32%20AM.png)
 
 
 
