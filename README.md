@@ -24,6 +24,16 @@ Hi here ! This is a simple shiny app to visualize Poland's biodiversity. This ap
 
 As seen in the image, the app contains information on Contributors, Where the species were photographed , the photographs of the animals & when they were photographed.
 
+## Future Work
+The app can be found here https://pradeepadhokshaja.shinyapps.io/shiny_app/ . This app works better on Firefox. 
+
+There are a couple of issues that lead to the app being slow
+
+* Use of tidyverse::dplyr functions for data munging. **DT or data.table for manipulation that can speed up the process**
+* Use of an RDS data file that leads to slower uptime when the app is loading . **Making using of AWS/Google Cloud/Azure can help with faster data streaming**.
+* Using plotly wrapper for R can lead to longer rendering times for the graphs. **Using simpler JS visualization libraries can reduce the app load time**.
+* This app is currently deployed on shiny.app.io **Using Cloud Machines that can optimize for memory** could help in faster rendering times.
+
 
 
 
