@@ -18,6 +18,10 @@ Hi here ! This is a simple shiny app to visualize Poland's biodiversity. This ap
 
 ![App Layout](https://raw.githubusercontent.com/adhok/biodiversity_app_poland/main/Screenshot%202022-05-12%20at%2011.06.32%20AM.png)
 
+
+![App Layout](https://raw.githubusercontent.com/adhok/biodiversity_app_poland/main/Screenshot%202022-05-12%20at%203.52.55%20PM.png)
+
+
 * First select the kingdom, vernacular name and the scientific name in that order
 * Then click the button `Click to get your results`
 * A circular progress bar will appear that will last for ~2 seconds
