@@ -32,7 +32,7 @@ As seen in the image, the app contains information on Contributors, Where the sp
 ## Future Work
 
 
-The app can be found here https://pradeepadhokshaja.shinyapps.io/shiny_app/ . This app works better on Firefox. 
+The app can be found here https://pradeepadhokshaja.shinyapps.io/shiny_app/ 
 
 There are a couple of issues that lead to the app being slow
 
