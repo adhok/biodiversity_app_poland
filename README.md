@@ -4,14 +4,14 @@ Hi here ! This is a simple shiny app to visualize Poland's biodiversity. This ap
 
 ## App structure
 
-* `server.R` - This is the file that contains the different backend functions that make the app work.
+* `server.R` - This is the file that contains the different backend data munging functions that make the app work.
 * `ui.R` - This is the file that contains basic UI features for the app such as Background color etc.
 * `global.R`  - File that contains global variables such as data and the file used for library imports
 * `data_pull.R` = R file that reads the large biodioversity data (~10GB) in chunks and creates two RDS files - new_data.RDS & poland.RDS.
 * `data_sources/poland.RDS` - This contains the Poland data from `occurrence.csv`.
 * `data_sources/new_data.RDS` - A joined data of `poland.RDS` & `multimedia.csv`
 * `app.R` - File that imports `ui.R`, `server.R` & `global.R` and runs the shinyApp() function.
-* `www` folder contains image and simple CSS files that are used in the app.
+* `www` folder contains image of Poland icon and simple CSS files that are used in the app.
 
 
 ## App Layout & Usage
@@ -25,10 +25,13 @@ Hi here ! This is a simple shiny app to visualize Poland's biodiversity. This ap
 * First select the kingdom, vernacular name and the scientific name in that order
 * Then click the button `Click to get your results`
 * A circular progress bar will appear that will last for ~2 seconds
+* You can click the different tabs to get the results for your selected filters.
 
 As seen in the image, the app contains information on Contributors, Where the species were photographed , the photographs of the animals & when they were photographed.
 
 ## Future Work
+
+
 The app can be found here https://pradeepadhokshaja.shinyapps.io/shiny_app/ . This app works better on Firefox. 
 
 There are a couple of issues that lead to the app being slow
