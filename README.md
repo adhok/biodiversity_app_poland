@@ -16,7 +16,7 @@ Hi here ! This is a simple shiny app to visualize Poland's biodiversity. This ap
 
 ## App Layout & Usage
 
-![App Layout](https://raw.githubusercontent.com/adhok/biodiversity_app_poland/main/Screenshot%202022-05-12%20at%2011.06.32%20AM.png)
+![App Layout](https://raw.githubusercontent.com/adhok/biodiversity_app_poland/main/Screenshot%202022-05-13%20at%206.11.59%20PM.png)
 
 
 ![App Layout](https://raw.githubusercontent.com/adhok/biodiversity_app_poland/main/Screenshot%202022-05-12%20at%203.52.55%20PM.png)
